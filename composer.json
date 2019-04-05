@@ -1,0 +1,24 @@
+{
+    "name": "tukataka/atest",
+    "authors": [
+        {
+            "name": "tukataka",
+            "email": "niki-isak@yandex.ru"
+        }
+    ],
+    "require": {
+        "league/route": "4.2.0",
+        "zendframework/zend-diactoros": "2.1.1",
+        "zendframework/zend-httphandlerrunner": "1.0.1",
+        "vlucas/phpdotenv": "v3.3.2",
+        "illuminate/container": "^5.7",
+        "rakit/validation": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require-dev": {
+    }
+}
